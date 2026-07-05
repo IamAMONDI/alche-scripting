@@ -1,2 +1,5 @@
 #!/usr/bin/env ruby
-puts ARGV[0].to_s[/^h.n$/]
+line = ARGV[0]
+if line =~ /^h.n$/
+  puts line
+end
